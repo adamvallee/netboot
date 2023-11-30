@@ -23,9 +23,9 @@ initrd http://path.to/initrd
 imgargs vmlinuz put_kernel_img_args_here
 boot || goto custom_exit
 
-:option_two
+:ipfire-2.27
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd http://path.to/iso
+initrd https://mirror.as19651.net/ipfire/ipfire-2.27-core181-x86_64.iso
 boot || goto custom_exit
 
 :option_three
